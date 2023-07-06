@@ -1,4 +1,4 @@
-
+// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом. Не использовать строки.
 Console.WriteLine("Введите число: ");
 string number = Console.ReadLine();
 
@@ -9,7 +9,7 @@ void Check (string number){
   else Console.WriteLine("Ваше число: " + number + " - НЕ палиндром.");
 }
 
-if (number!.Length == 5){
+if (number.Length == 5){
   Check (number);
 }
-else Console.WriteLine($"Введи правильное число");
+else Console.WriteLine("Введи правильное число");
